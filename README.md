@@ -93,7 +93,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 How to use:
 ```text
 import(
-    asciitextart "ASCIITextArt"
+    asciitextart "github.com/LYF123123/ASCIITextArt"
     "fmt
 )
 

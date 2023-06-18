@@ -1,7 +1,7 @@
 package asciitextart_test
 
 import (
-	asciitextart "ASCIITextArt"
+	asciitextart "github.com/LYF123123/ASCIITextArt"
 	"testing"
 )
 
