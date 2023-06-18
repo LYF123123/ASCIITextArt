@@ -4,7 +4,7 @@ package asciitextart
 
 // Lowercase letters
 // a~z
-var lowercase = [...]string{
+var engLowerCase = [...]string{
 	//a
 	"_________",
 	"_________",
@@ -296,7 +296,7 @@ var lowercase = [...]string{
 
 // Uppercase letters
 // A~Z
-var uppercase = [...]string{
+var engUpperCase = [...]string{
 	// A
 	"____$$____",
 	"___$$$$___",
@@ -587,7 +587,7 @@ var uppercase = [...]string{
 
 // Number
 // 0~9
-var numbercase = [...]string{
+var numberCase = [...]string{
 	// 0
 	"__________",
 	"__$$$$$$__",
