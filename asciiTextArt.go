@@ -22,9 +22,14 @@ func lettersConver(b []rune) string {
 			for j := 0; j < 10; j++ {
 				str[j] += numberCase[int(b[i]-'0')*10+j]
 			}
+		} else if b[i] >= ' ' && b[i] <= '/' {
+			for j := 0; j < 10; j++ {
+				str[j] += engCharacterCase[int(b[i]-' ')*10+j]
+			}
 		} else {
 			// This branch should not be reached
-			return ""
+			panic("not support character" + string(b[i]))
+			// return ""
 		}
 	}
 	var res string
